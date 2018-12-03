@@ -300,7 +300,20 @@
       
         
           
-            
+            <h2 id="Flexible承载的使命"><a href="#Flexible承载的使命" class="headerlink" title="Flexible承载的使命"></a>Flexible承载的使命</h2><p>Flexible到今天也有几年的历史了，解救了很多同学针对于H5页面布局的适配问题。而这套方案也相对而言是一个较为成熟的方案。简单的回忆一下，当初为了能让页面更好的适配各种不同的终端，通过Hack手段来根据设备的<code>dpr</code>值相应改变<code>&lt;meta&gt;</code>标签中<code>viewport</code>的值。</p>
+<p>从而让页面达么缩放的效果，也变相的实现页面的适配功能。而其主要的思想有三点：</p>
+<ul>
+<li>根据<code>dpr</code>的值来修改<code>viewport</code>实现<code>1px</code>的线</li>
+<li>根据<code>dpr</code>的值来修改<code>html</code>的<code>font-size</code>，从而使用<code>rem</code>实现等比缩放</li>
+<li>使用Hack手段用<code>rem</code>模拟<code>vw</code>特性</li>
+</ul>
+<p>虽然Flexible解决了适配终端很多问题，但它并不是万能的，也不是最优秀的，他还是存在一些问题的，比如<code>iframe</code>的引用，有时候就把我们自己给埋进去了。针对其中的一些不足之处，有些同学对其进行过相关的改造，在网上搜索能找到相关的方案。那么时代在变化，前端技术在不断的变化，试问：<strong>Flexible还是最佳方案？Flexible还有存在的必要吗？</strong> 最近一直在探讨这方面，这里先告诉大家<strong>Flexible已经完成了他自身的历史使命，我们可以放下Flexible，拥抱新的变化</strong>。</p>
+<h2 id="先上菜，再唠嗑"><a href="#先上菜，再唠嗑" class="headerlink" title="先上菜，再唠嗑"></a>先上菜，再唠嗑</h2><p>先上个二维码：</p>
+<p><img src="https://www.w3cplus.com/sites/default/files/blogs/2017/1707/vw-layout-1.png" alt="img"></p>
+<p>你可以使用手淘App、优酷APP、各终端自带的浏览器、UC浏览器、QQ浏览器、Safari浏览器和Chrome浏览器扫描上面的二维码，您看到相应的效果：（有些手机机型没有得到支持，扫描了可能也看不见）</p>
+<p><img src="https://www.w3cplus.com/sites/default/files/blogs/2017/1707/vw-layout-2.png" alt=""></p>
+<p># </p>
+
           
         
       
